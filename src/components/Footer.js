@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Icons from "./icons";
+
 
 export default class Footer extends Component {
     render() {
@@ -9,10 +11,7 @@ export default class Footer extends Component {
                         Made with <i className="fa fa-heart" style={{ fontSize: "24px", color: "red" }}></i> by  &nbsp; <span>Sandeep Kumar</span>
                         <br />  <span style={{ paddingLeft: "30%" }}><a href="https://github.com/satyasandeep007/portfolio-react-bootstrap">View Source</a></span>
                     </span>
-                    <a>
-
-                    </a>
-
+                    <Icons />
                 </nav>
             </div>
         )

@@ -6,7 +6,12 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark " style={{ backgroundColor: "#0074D9" }}>
-                    <a className="navbar-brand" >Sandeep Kumar</a>
+                    <i className="fa fa-user-o" style={{ color: "white" }}></i>&nbsp;
+                    <a className="navbar-brand" >&nbsp;Sandeep Kumar <br />
+                        {/* <span style={{ fontFamily: "Arial", fontSize: "0.8rem" }}>MERN Stack Developer</span> */}
+                    </a>
+                    {/* <a className="navbar-brand" >MERN Stack Developer</a> */}
+
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -26,7 +31,10 @@ export default class Navbar extends Component {
                                 <Link to={"/experience"} className="nav-link" >Experience <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <Link to={"/contact"} className="nav-link" >Contact <span className="sr-only">(current)</span></Link>
+                                <Link to={"/skills"} className="nav-link" >Skills <span className="sr-only">(current)</span></Link>
+                            </li>
+                            <li className="nav-item active">
+                                <Link to={"/projects"} className="nav-link" >Projects <span className="sr-only">(current)</span></Link>
                             </li>
                         </ul>
                     </div>
