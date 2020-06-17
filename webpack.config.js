@@ -20,8 +20,10 @@ module.exports = (env, options) => {
             path: path.resolve(__dirname, 'dist'),
             filename: 'main.js',
             publicPath: '/',
+            // historyApiFallback: true,
         },
         devtool: isDevMode ? "source-map" : false,
+
         resolve: {
             extensions: [".js"],
         },
@@ -91,6 +93,9 @@ module.exports = (env, options) => {
                     ]
                 }
             ]
+        },
+        devServer: {
+            historyApiFallback: true,
         },
         plugins: [
             new CleanWebpackPlugin([settings.distPath], {

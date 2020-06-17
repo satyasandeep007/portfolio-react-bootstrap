@@ -12,6 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
+    "history": "^5.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^5.2.0",

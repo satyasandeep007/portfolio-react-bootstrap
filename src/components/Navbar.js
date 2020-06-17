@@ -25,7 +25,7 @@ export default class Navbar extends Component {
                                 <Link to={"/about"} className="nav-link" >About <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <Link to={"/education"} className="nav-link" >Education <span className="sr-only">(current)</span></Link>
+                                <Link to={"/blogs"} className="nav-link" >Blogs <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
                                 <Link to={"/experience"} className="nav-link" >Experience <span className="sr-only">(current)</span></Link>
@@ -39,6 +39,7 @@ export default class Navbar extends Component {
                         </ul>
                     </div>
                 </nav>
+
             </div>
         )
     }
