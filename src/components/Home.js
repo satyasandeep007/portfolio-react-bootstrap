@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 export default class Home extends Component {
     render() {
         return (
-            <div>
-                <div className="row ">
-                    <div className="col-xl-12" >
-                        <div className="card">
-                            <div className="row">
-                                <div className="col-sm-3">
-                                    <img src="public/assets/akhil.jpg" width="100%" height="400px" className="img-rounded" alt="Me" />
+            <div style={{ height: "100vh" }}>
+                <div className="row " style={{ height: "100%" }}>
+                    <div className="col-xl-12" style={{ height: "100%" }}>
+                        <div className="card" style={{ height: "100%" }}>
+                            <div className="row" style={{ height: "100%" }}>
+                                <div className="col-sm-3" style={{ height: "100%" }}>
+                                    <img src="public/assets/akhil.jpg" width="100%" height="100%" className="img-rounded" alt="Me" />
                                 </div>
                                 <div className="col-sm-6 " style={{ marginTop: "5%" }}>
                                     <div className="card ">
